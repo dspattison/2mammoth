@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="referrer" content="never">
+        <title>2Mammoth</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <h1>2mammoth.com</h1>
+        <a href="longbeackskiclub.org?from=2mammoth">
+        	<h2 style="background-color:lightgreen; border: 2px solid darkgreen; border-radius: 10px;">
+        		Hate Driving? Join the Long Beach Ski Club! Skiers and Snowboarders Wanted!
+        	</h2>
+        </a>
+        
+        <h2>Getting There</h2>
+        <a href="http://www.dot.ca.gov/hq/roadinfo/us395">dot.ca.gov 395 Road info</a>
+        <iframe style="width: 100%; height: 15em; overflow: hidden;" scrolling='no' border="0"  src="http://www.dot.ca.gov/hq/roadinfo/us395" ></iframe>
+        <br/>
+        <a href="http://goo.gl/maps/AeGsg">
+      	  <img src="https://maps.googleapis.com/maps/api/staticmap?center=Mammoth%20Lakes,%20CA&zoom=8&size=300x300&maptype=roadmap&sensor=false"/>
+      	</a>
+        <br/>
+        <a href="http://forecast.weather.gov/MapClick.php?zoneid=CAZ073">NOAA forcast</a>
+        
+        <h2>At the Mountain</h2>
+        <a href="https://www.mammothmountain.com/MyMammoth/WebCams/MainCam/">Mammoth Mountain web cams</a>
+        
+        <script>
+        	['Main Lodge', 'McCoy', 'Canyon Cam', 'Village Cam'].map(function(v) {
+        		document.write(
+	        		'<h2>' + v + '</h2>' +
+	        		'<iframe height="350px" width="350px" scrolling="no" ' +
+	        		'src="http://ec2-54-245-26-97.us-west-2.compute.amazonaws.com/'+ encodeURIComponent(v) + '/videojs.html"></iframe>'
+        		);
+        	});
+        	
+        </script>
+        
+        
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-4593268-2');ga('send','pageview');
+        </script>
+    </body>
+</html>
+
